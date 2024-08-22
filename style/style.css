@@ -125,6 +125,42 @@ body{
     
     
 }
+.apresentacao__links2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__navegacao2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 16px;
+    background-color:var(--cor-detalhes);
+    color:  var(--cor-destaque);
+    border: 1px solid var(--cor-destaque);
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.344rem 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+.apresentacao__links__navegacao2:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-secundaria);
+    transition: 0.5s;
+    
+}
+
 
 .apresentacao__links__subtitulo{
     font-size: 1.5rem;
@@ -156,6 +192,10 @@ body{
     text-align: center;
     margin-bottom: 0%;
    
+}
+
+.projeto__imagem{
+    width: 100%;
 }
 
 
